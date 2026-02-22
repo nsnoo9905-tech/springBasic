@@ -7,7 +7,7 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 public class MemberApp {
 
     public static void main(String[] args) {
-        //AppConfig appConfig = new AppConfig();
+        //AppConfig appConfig = new AppConfig();dd
         //MemberService memberService = appConfig.memberService(); test11111
 
         ApplicationContext applicationContext = new AnnotationConfigApplicationContext(AppConfig.class);
