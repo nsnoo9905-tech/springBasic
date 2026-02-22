@@ -8,7 +8,7 @@ public class MemberApp {
 
     public static void main(String[] args) {
         //AppConfig appConfig = new AppConfig();
-        //MemberService memberService = appConfig.memberService(); test
+        //MemberService memberService = appConfig.memberService(); test11111
 
         ApplicationContext applicationContext = new AnnotationConfigApplicationContext(AppConfig.class);
         MemberService memberService = applicationContext.getBean("memberService", MemberService.class);
